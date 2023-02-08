@@ -31,7 +31,7 @@
 
 } */
 
-.overlay{
+.imageOverlay{
     background-image: url(../img/overlay.png);
     background-repeat: repeat;
     position: absolute;
@@ -39,4 +39,9 @@
     height: 100%;
     left: 0px;
     top: 0px;
+    filter: grayscale(1);
+}
+
+.greyScale{
+    filter: grayscale(1);
 }
