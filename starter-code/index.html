@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap demo</title>
   <link rel="stylesheet" type="text/css" href="./stylesheets/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -64,7 +65,7 @@
 
 
         <img src="./img/slider-1.jpg" class="d-block w-100 greyScale" alt="...">
-        
+
         <div class="imageOverlay"></div>
 
 
@@ -125,8 +126,11 @@
   <div class="container text-center">
     <div class="row align-items-start text-white">
       <div class="col ">
-
-          <span><i class="bi bi-cup-straw" style="font-size: 5em" ></i></span>
+<!--Thin icons need Pro Plan for Font Awsome-->
+<span class="fa-stack fa-1g iSize"> 
+  <i class="fa-regular fa-circle fa-2x"></i>
+  <i class="fa-solid fa-martini-glass fa-stack-1x fa-inverse fa-xs"></i>
+            </span>
           <h3> Web design</h3>
           <p> Cum sociis natoque penatibus et magnis dis parturient montes,
             nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus.
@@ -136,7 +140,10 @@
 
       </div>
       <div class="col">
-        <span><i class="bi bi-cup-straw"  style="font-size: 5em"></i></span>
+        <span class="fa-stack fa-1g iSize">
+          <i class="fa-regular fa-circle fa-2x"></i>
+          <i class="fa-solid fa-star fa-stack-1x fa-inverse fa-xs"></i>
+          </span>
         <h3> Web development</h3>
         <p> Duis tempus leo vitae ipsum viverra, blandit 
           condimentum sapien porttitor. Duis porttitor sed metus eget mollis.
@@ -146,7 +153,10 @@
         </p>
       </div>
       <div class="col">
-        <span><i class="bi bi-cup-straw"  style="font-size: 5em"></i></span>
+        <span class="fa-stack fa-1g iSize"> 
+          <i class="fa-regular fa-circle fa-2x"></i>
+          <i class="fa-solid fa-heart fa-stack-1x fa-inverse fa-xs"></i> 
+          </span>
         <h3> User interface</h3>
         <p> Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim,
           eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales.
